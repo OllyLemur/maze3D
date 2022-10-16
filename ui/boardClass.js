@@ -91,8 +91,8 @@ class Board {
         ["ArrowLeft", [0, 0, -1]],
         ["ArrowUp", [0, -1, 0]],
         ["ArrowDown", [0, 1, 0]],
-        ["KeyW", [1, 0, 0]],
-        ["KeyS", [-1, 0, 0]],
+        ["PageUp", [1, 0, 0]],
+        ["PageDown", [-1, 0, 0]],
       ]);
 
       if (directions.has(e.code)) {
