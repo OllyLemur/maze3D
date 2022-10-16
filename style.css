@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+#cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#form-cont {
+  margin: 25px;
+}
+#form-cont div {
+  margin: 10px 0;
+}
+
+#form-cont div label {
+  display: inline-block;
+  width: 50px;
+}
+
+/* input:invalid {
+  border-color: rgb(210, 22, 22);
+  background-color: rgba(255, 0, 0, 0.494);
+}
+
+input:focus:invalid {
+  outline: none;
+} */
+
+.error {
+  background-color: brown;
+  color: white;
+  padding: 0px;
+  border-radius: 5px;
+  font-size: 90%;
+}
+
+.error.active {
+  padding: 2px;
+}
+
+.cell{
+  height: 35px;
+  width: 35px;
+}
+
+.board {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.player-img{
+  position: absolute;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
