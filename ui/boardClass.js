@@ -116,8 +116,8 @@ class Board {
           this.#player.state.layer > 0
         ) {
           if (
-            (e.code === "KeyW" && this.#player.state.up) ||
-            (e.code === "KeyS" && this.#player.state.down)
+            (e.code === "PageUp" && this.#player.state.up) ||
+            (e.code === "PageDown" && this.#player.state.down)
           ) {
             const nextCell =
               this.#maze[this.#player.state.layer + direction[0]][
